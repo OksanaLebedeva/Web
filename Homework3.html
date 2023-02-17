@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework3</title>
+</head>
+<body>
+    <script language="JavaScript">
+    function printName(name){
+        alert(`Спасибо! ${name}`);
+    }
+    let name = prompt("Привет! Как Вас зовут?");
+    let message = (name == "Станислав") ? "Вы - наш учитель!" : (name == "Оксана") ? "Вы - ученик" : (name == "Ильнар") ? "А вы что здесь забыли?" : "Мы не знаем, кто вы, но очень рады вам!"; 
+    printName(message);
+    </script>
+</body>
+</html>
